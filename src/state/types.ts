@@ -165,7 +165,7 @@ export interface Bet {
   position: BetPosition
   claimed: boolean
   user: PredictionUser
-  round?: Round
+  round: Round
 }
 
 export interface PredictionUser {
